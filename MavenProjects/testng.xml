@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/tehrim.ansari/Documents/MavenProjects">
+    <classes>
+        <class name="home.HomePageTests">
+        <methods>
+            <include name="initImpl"/>
+            <include name="test_assignment"/>
+    </methods>
+    </class>
+        <class name="home.InvalidateEmailTests">
+        <methods>
+            <include name="initImpl"/>
+            <include name="test_assignment"/>
+        </methods>
+    </class>
+        <class name="home.verifyCartTests">
+        <methods><include name="initImpl"/>
+            <include name="test_assignment"/>
+        </methods>
+    </class>
+    </classes>
+</test>
+</suite>
