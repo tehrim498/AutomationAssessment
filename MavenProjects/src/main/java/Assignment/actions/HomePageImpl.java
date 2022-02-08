@@ -1,6 +1,6 @@
 package Assignment.actions;
 
-import Assignment.pages.home.HomePage;
+import Assignment.pages.HomePage;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -9,7 +9,8 @@ public class HomePageImpl extends CoreActions {
 
 //	private String title;
 
-    public HomePageImpl(WebDriver bot) {
+    public HomePageImpl(WebDriver bot)
+    {
         super(bot);
     }
 
@@ -41,7 +42,7 @@ public class HomePageImpl extends CoreActions {
     }
     @Step("Customer Service")
     public void CService() {
-        sleep(0.50);
+//        sleep(0.50);k
         click(HomePage.customerService);
 
     }
@@ -50,6 +51,7 @@ public class HomePageImpl extends CoreActions {
         waitForVisibility(HomePage.send);
         click(HomePage.send);
     }
+
 
 
 
